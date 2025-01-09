@@ -1,4 +1,4 @@
-# Financial-News-Web-Scraping
+# Financial News (Web Scraping)
 
 
  Monte Carlo Simulation: <br/>
