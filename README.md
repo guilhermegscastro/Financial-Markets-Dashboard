@@ -2,4 +2,4 @@
 
 
  Monte Carlo Simulation: <br/>
-<img src="https://imgur.com/mtHIB5i.png" height="60%" width="90%" alt="Valuation_VaR_MonteCarlo"/>
+<img src="https://imgur.com/mtHIB5i.png" height="60%" width="100%" alt="Valuation_VaR_MonteCarlo"/>
