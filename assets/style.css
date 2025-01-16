@@ -10,7 +10,7 @@ body{
 
 
 
-.subtitulos-dash{
+.subtitle-dash{
     font-size: 20px; 
     font-weight: 700; 
     background-color: #212946; 
@@ -26,7 +26,7 @@ body{
 }
 
 
-.categorias-dash{
+.category-dash{
 
     font-size: 18px;
     font-weight: 700;
@@ -63,15 +63,6 @@ body{
 
 .Select-value-label{
     color: #F2F4F8 !important;
-}
-
-
-#escolher-grafico-aovivo{
-
-    margin-top: 26px;
-    width: 100%;
-    max-width: 140px;
-
 }
 
 
@@ -139,6 +130,22 @@ body{
     height: 50px;
     width: 160px
 
+}
+
+.local-macroeconomics{
+
+    font-size: 16px;
+    font-weight: 700;
+    border: 1px solid #08F7FE; 
+    padding: 0px;
+    margin: 4px 0px 0px 0px;
+    border-radius: 8px;
+    text-align: center;
+    color: #F2F4F8;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    height: 32px
 }
 
 
