@@ -1,15 +1,19 @@
-# Financial News (Web Scraping)
+# Financial Market Dashboard
 
 ## Project Description
 
-The **News Aggregator Dashboard** is a web-based application designed to gather and display news articles from multiple sources in an organized, user-friendly interface. By leveraging web scraping techniques, this project collects articles on themes such as technology and economy from a variety of international news outlets. The data is presented in a structured and visually appealing manner using Python's Dash framework.
+This project provides an interactive dashboard for visualizing and analyzing key financial market indicators. The dashboard leverages Python and various libraries to fetch, process, and display real-time and historical data related to US Economic performance, market trends and business news.
 
 This project showcases skills in data collection, web development, and data visualization, making it an ideal demonstration of technical and analytical capabilities in building robust tools for real-time information aggregation.
 
 <img src="https://imgur.com/mtHIB5i.png" height="60%" width="130%" alt="financial_news"/>
 
 
+
+
 ## News Tab
+
+The **News Aggregator Dashboard** is a web-based application designed to gather and display news articles from multiple sources in an organized, user-friendly interface. By leveraging web scraping techniques, this project collects articles on themes such as technology and economy from a variety of international news outlets. The data is presented in a structured and visually appealing manner using Python's Dash framework.
 
 1. **Automated News Collection**:
    - The application scrapes news articles from prominent sources like CNN, CNBC, Financial Times, and more.
