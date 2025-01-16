@@ -8,7 +8,8 @@ This project showcases skills in data collection, web development, and data visu
 
 <img src="https://imgur.com/mtHIB5i.png" height="60%" width="130%" alt="financial_news"/>
 
-## Features
+
+## News Tab
 
 1. **Automated News Collection**:
    - The application scrapes news articles from prominent sources like CNN, CNBC, Financial Times, and more.
