@@ -5,7 +5,7 @@ import time
 
 while True:
 
-    def atualizar_rotinas():
+    def update_rotines():
 
         webscraping_ism_pmi()
         get_cpi() 
@@ -28,6 +28,6 @@ while True:
         get_commercial_industrial_loans() 
         scraping_news()
 
-    atualizar_rotinas()
+    update_rotines()
 
     time.sleep(86400)
