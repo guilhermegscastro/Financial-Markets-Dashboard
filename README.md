@@ -6,22 +6,30 @@ This project provides an interactive dashboard for visualizing and analyzing key
 
 This project showcases skills in data collection, web development, and data visualization, making it an ideal demonstration of technical and analytical capabilities in building robust tools for real-time information aggregation.
 
-<img src="https://imgur.com/mtHIB5i.png" height="60%" width="130%" alt="financial_news"/>
-
 ## Macroeconomics Tab
 
-The **News Aggregator Dashboard** is a web-based application designed to gather and display news articles from multiple sources in an organized, user-friendly interface. By leveraging web scraping techniques, this project collects articles on themes such as technology and economy from a variety of international news outlets. The data is presented in a structured and visually appealing manner using Python's Dash framework.
+The **Macroeconomics Indicator Tab** is a web-based application designed to gather and display US economic trends from multiple sources in an organized, user-friendly interface. By leveraging API, data-gathering and data-cleaning techniques, this project collects data on themes such as PMI, Consumer Sentiment, Initial Jobless Claims, Nonfarm Payroll, PPI, Feds Fund Rate, etc. The data is presented in a structured and visually appealing manner using Python's Dash framework.
 
-1. **Automated News Collection**:
-   - The application scrapes news articles from prominent sources like CNN, CNBC, Financial Times, and more.
-   - Themes include economy, technology, artificial intelligence, and deep-dive analysis.
+1. **Data Integration**:
+   - Retrieves and integrates data from various sources, including CSV files, Web-Scraping and external APIs (Fred).
 
+2. **Interactive Visualizations**:
+   - Generates dynamic charts and graphs to visualize trends, correlations, and anomalies in the financial data.
+   - Allows users to filter, sort, and customize the displayed data based on the indicator and time frame.
+  
+3. **Data-Driven Insights**:
+   - Provides users with a comprehensive overview of the current market conditions and potential trends.
+   - Organizes financial indicators into three categories: Leading Indicators, Coincident Indicators, and Lagging Indicators, allowing for a structured analysis of economic health.
+  
+4. **Statistics View**:
+   - Enables users to visualize and analyze time series data for selected indicators, including historical trends and forecasts.
+   - Displays key statistics for each indicator, including actual values, year-over-year (YoY) change, and month-over-month (MoM) change.
 
-
+<img src="https://imgur.com/mtHIB5i.png" height="60%" width="130%" alt="financial_news"/>
 
 ## News Tab
 
-The **News Aggregator Dashboard** is a web-based application designed to gather and display news articles from multiple sources in an organized, user-friendly interface. By leveraging web scraping techniques, this project collects articles on themes such as technology and economy from a variety of international news outlets. The data is presented in a structured and visually appealing manner using Python's Dash framework.
+The **News Aggregator Tab** is a web-based application designed to gather and display news articles from multiple sources in an organized, user-friendly interface. By leveraging web scraping techniques, this project collects articles on themes such as technology and economy from a variety of international news outlets. The data is presented in a structured and visually appealing manner using Python's Dash framework.
 
 1. **Automated News Collection**:
    - The application scrapes news articles from prominent sources like CNN, CNBC, Financial Times, and more.
@@ -37,6 +45,8 @@ The **News Aggregator Dashboard** is a web-based application designed to gather 
 
 4. **Responsive and User-Friendly Design**:
    - Built using Dash Bootstrap Components, the dashboard is optimized for different screen sizes and provides a seamless user experience.
+  
+<img src="https://imgur.com/mtHIB5i.png" height="60%" width="130%" alt="financial_news"/>
 
 ## Technologies Used
 
