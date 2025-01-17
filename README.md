@@ -83,9 +83,11 @@ The **News Aggregator Dashboard** is a web-based application designed to gather 
 1. **Install Dependencies**:
 
 2. **Run the Scraping Script**:
-   - Execute `data_news.py`, to collect the latest articles:
+   - Execute `routine.py` to collect the latest data and articles every day or execute each one of these files:
      ```bash
      python data_news.py
+     python data_fred.py
+     python data_ism_pmi.py
      ```
 
 3. **Launch the Dashboard**:
