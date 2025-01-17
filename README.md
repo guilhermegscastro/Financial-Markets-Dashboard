@@ -25,7 +25,7 @@ The **Macroeconomics Indicator Tab** is a web-based application designed to gath
    - Enables users to visualize and analyze time series data for selected indicators, including historical trends and forecasts.
    - Displays key statistics for each indicator, including actual values, year-over-year (YoY) change, and month-over-month (MoM) change.
 
-![My Logo](images/logo.png "Company Logo")
+![Macroeconomic Tab](image/macroeconomics.png "Financial Market Dashboard")
 
 ## News Tab
 
