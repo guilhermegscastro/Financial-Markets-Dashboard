@@ -52,18 +52,24 @@ The **News Aggregator Tab** is a web-based application designed to gather and di
 
 - **Python**:
   - Core language for scripting and development.
-  - Libraries: Selenium, Beautiful Soup, Pandas, Dash, Dash Bootstrap Components.
+  - Libraries: Selenium, Beautiful Soup, Pandas, Dash, Plotly, Dash Bootstrap Components.
+- **Vizualizing Tools**:
+   - Plotly library for interactive graphing.  
 - **Web Scraping Tools**:
   - Selenium WebDriver for handling dynamic web pages.
   - Beautiful Soup for HTML parsing.
 - **Data Storage**:
-  - Aggregated data stored in `news.csv` for modularity and reusability.
+  - Aggregated data stored in `.csv` for modularity and reusability.
 - **Web Framework**:
   - Dash for creating interactive web applications.
 
 ## How It Works
 
 1. **Data Collection**:
+
+   - The `data_fred.py` and `data_ism_pmi.py` script contains specialized functions to scrape data from:
+     - Federal Reserve Economic Data (FRED)
+     - Investing.com
    - The `data_news.py` script contains specialized functions to scrape articles from:
      - CNN
      - CNBC
@@ -73,13 +79,13 @@ The **News Aggregator Tab** is a web-based application designed to gather and di
      - Fortune
    - Each function handles a specific source and theme.
 
-2. **Data Integration**:
+3. **Data Integration**:
+   - The `get_{indicator}()` and `webscraping_ism_pmi()` functions consolidates the collected data into multiples DataFrames.
    - The `scraping_news()` function consolidates the collected data into a single DataFrame.
-   - The data is saved in `news.csv` for dashboard consumption.
+   - The data is saved in `.csv` for dashboard consumption.
 
-3. **Dashboard Visualization**:
+5. **Dashboard Visualization**:
    - The `dashboard.py` script builds the interactive dashboard.
-   - News themes are presented in tabs (e.g., U.S. news, world news) for easy navigation.
 
 ## Key Highlights
 
