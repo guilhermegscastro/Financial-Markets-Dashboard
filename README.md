@@ -46,7 +46,7 @@ The **News Aggregator Tab** is a web-based application designed to gather and di
 4. **Responsive and User-Friendly Design**:
    - Built using Dash Bootstrap Components, the dashboard is optimized for different screen sizes and provides a seamless user experience.
   
-<img src="https://imgur.com/mtHIB5i.png" height="60%" width="130%" alt="financial_news"/>
+![News Tab](image/news.png "Financial Market Dashboard")
 
 ## Technologies Used
 
