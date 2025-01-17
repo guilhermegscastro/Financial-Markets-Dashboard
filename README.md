@@ -71,7 +71,7 @@ The **News Aggregator Dashboard** is a web-based application designed to gather 
    - The `dashboard.py` script builds the interactive dashboard.
    - News themes are presented in tabs (e.g., U.S. news, world news) for easy navigation.
 
-## Key Highlights for Recruiters
+## Key Highlights
 
 - **End-to-End Development**: Demonstrates ability to design, develop, and deploy a functional application.
 - **Web Scraping Expertise**: Extracts structured data from diverse sources efficiently.
