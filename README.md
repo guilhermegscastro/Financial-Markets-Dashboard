@@ -8,6 +8,14 @@ This project showcases skills in data collection, web development, and data visu
 
 <img src="https://imgur.com/mtHIB5i.png" height="60%" width="130%" alt="financial_news"/>
 
+## Macroeconomics Tab
+
+The **News Aggregator Dashboard** is a web-based application designed to gather and display news articles from multiple sources in an organized, user-friendly interface. By leveraging web scraping techniques, this project collects articles on themes such as technology and economy from a variety of international news outlets. The data is presented in a structured and visually appealing manner using Python's Dash framework.
+
+1. **Automated News Collection**:
+   - The application scrapes news articles from prominent sources like CNN, CNBC, Financial Times, and more.
+   - Themes include economy, technology, artificial intelligence, and deep-dive analysis.
+
 
 
 
@@ -75,7 +83,7 @@ The **News Aggregator Dashboard** is a web-based application designed to gather 
 1. **Install Dependencies**:
 
 2. **Run the Scraping Script**:
-   - Execute `data_news.py` to collect the latest articles:
+   - Execute `data_news.py`, to collect the latest articles:
      ```bash
      python data_news.py
      ```
