@@ -99,8 +99,8 @@ The **News Aggregator Tab** is a web-based application designed to gather and di
 1. **Install Dependencies**:
    - Download the Repository:
      ```bash
-     git clone <https://github.com/guilhermegscastro/Financial-Markets-Dashboard.git>
-     cd <Financial-Markets-Dashboard>
+     git clone https://github.com/guilhermegscastro/Financial-Markets-Dashboard.git
+     cd Financial-Markets-Dashboard
      ```
    - Create a Virtual Environment:
      ```bash
@@ -114,7 +114,13 @@ The **News Aggregator Tab** is a web-based application designed to gather and di
    - Set Up the .env File:
      ```bash
       pip install python-dotenv
-     ```     
+     ``` 
+   - Get Your API KEY on Federal Reserve Bank of St. Louis:
+     ```bash
+      https://fred.stlouisfed.org/docs/api/api_key.html
+     ```
+   - Substitute your API KEY in .env File:
+
 2. **Run the Scraping Script**:
    - Execute `routine.py` to collect the latest data and articles every day or execute each one of these files:
      ```bash
