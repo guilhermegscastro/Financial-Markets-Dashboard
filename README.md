@@ -97,7 +97,24 @@ The **News Aggregator Tab** is a web-based application designed to gather and di
 ## How to Run
 
 1. **Install Dependencies**:
-
+   - Download the Repository:
+     ```bash
+     git clone <repository_url>
+     cd <repository_name>
+     ```
+   - Create a Virtual Environment:
+     ```bash
+      python -m venv venv
+      venv\Scripts\activate
+     ```
+   - Install Dependencies:
+     ```bash
+      pip install -r requirements.txt
+     ```
+   - Set Up the .env File:
+     ```bash
+      pip install python-dotenv
+     ```     
 2. **Run the Scraping Script**:
    - Execute `routine.py` to collect the latest data and articles every day or execute each one of these files:
      ```bash
